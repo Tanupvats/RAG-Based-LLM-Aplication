@@ -3,7 +3,7 @@ from sentence_transformers import SentenceTransformer
 from utils import download_documents
 from utils import parse_document_with_langchain
 from utils import generate_embeddings, index_embeddings
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoTokenizer,AutoModelForCausalLM
 
 def query_pipeline(pdf_path, user_query, model_path):
     """
