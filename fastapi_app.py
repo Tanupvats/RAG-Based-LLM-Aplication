@@ -15,7 +15,7 @@ class QueryRequest(BaseModel):
 @app.on_event("startup")
 async def load_model():
     global model, tokenizer
-    model_path = "../models/fine_tuned_llama_model"
+    model_path = "./models/fine_tuned_llama_model"
     try:
         # Load the tokenizer and model at startup
         tokenizer = AutoTokenizer.from_pretrained(model_path)
