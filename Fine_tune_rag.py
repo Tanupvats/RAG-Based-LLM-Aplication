@@ -82,5 +82,6 @@ if __name__ == "__main__":
     model_path = "../models/fine_tuned_llama_model"
     output_dir = "../models/fine_tuned_llama_output"
 
-    # Fine-tune the model
+    ## Fine-tune the model
     fine_tune_rag_model(data_path, model_path, output_dir)
+    
