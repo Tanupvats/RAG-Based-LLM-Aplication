@@ -16,10 +16,7 @@ rag_pipeline_repository/
 │   └── (Data files to be downloaded)
 ├── models/
 │   └── (Directory to store trained models)
-├── utils/
-│   ├── download_documents.py
-│   ├── parse_documents.py
-│   ├── generate_embeddings.py
+├── utils.py
 ├── fine_tune_model.py
 ├── advanced_rag_pipeline.py
 ├── fastapi_app.py
