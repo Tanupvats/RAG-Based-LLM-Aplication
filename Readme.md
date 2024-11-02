@@ -45,16 +45,13 @@ python scripts/setup_environment.py
 ```
 
 ### 2. Download Required Documents
-Download the required documents from Google Drive using the `download_documents.py` script:
-```bash
-python scripts/download_documents.py
-```
-The documents will be saved in the `data/` directory.
+Download the required documents from Google Drive using the `download_documents` in `utils.py`:
+Save documents in the `data/` directory.
 
 ### 3. Fine-Tune the LLaMA Model
 If you need to fine-tune the LLaMA model using domain-specific question-answer pairs, you can use the `fine_tune_model.py` script:
 ```bash
-python scripts/fine_tune_model.py
+python fine_tune_model.py
 ```
 This will generate a fine-tuned version of the model, saved in the `models/` directory.
 
@@ -64,7 +61,7 @@ To query the pipeline using a document and a user query, run the `advanced_rag_p
 ### 5. Run the FastAPI Server
 To serve the RAG model via FastAPI, run:
 ```bash
-uvicorn scripts.fastapi_app:app --reload
+uvicorn fastapi_app:app --reload
 ```
 The API will be available at `http://127.0.0.1:8000/query`.
 
