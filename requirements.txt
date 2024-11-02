@@ -6,4 +6,4 @@ faiss-cpu
 fastapi
 uvicorn
 transformers
-torch
+torch 
