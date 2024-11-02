@@ -2,7 +2,7 @@
 
 This repository contains an advanced Retrieval-Augmented Generation (RAG) pipeline for question answering using the LLaMA 3 model integrated with LangChain, along with a fine-tuning capability and a FastAPI interface for serving the model.
 
-## Components:
+## Components :
 1. **Advanced RAG Pipeline with LLaMA 3**: The pipeline includes document parsing, embedding generation, FAISS indexing, and generating answers using a locally running LLaMA model.
 2. **Fine-Tuning Pipeline for LLaMA 3**: A pipeline to fine-tune the LLaMA model on custom question-answer data to enhance its performance on domain-specific queries.
 3. **FastAPI to serve the RAG model**: A FastAPI server that provides an endpoint for querying the RAG model.
