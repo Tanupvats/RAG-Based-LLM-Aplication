@@ -92,14 +92,10 @@ The API will be available at `http://127.0.0.1:8000/query`.
 - **requirements.txt**: List of dependencies for setting up the environment.
 - **data/**: Directory for storing documents to be processed.
 - **models/**: Directory for storing the trained and fine-tuned models.
-- **scripts/**: Contains all scripts used in the pipeline.
-  - **download_documents.py**: Script for downloading documents from Google Drive using `gdown`.
-  - **parse_documents.py**: Script for parsing PDF documents using LangChain.
-  - **generate_embeddings.py**: Script for generating embeddings and indexing them using FAISS.
-  - **fine_tune_model.py**: Script for fine-tuning the LLaMA model on question-answer pairs.
-  - **advanced_rag_pipeline.py**: Script implementing the full RAG pipeline for querying.
-  - **fastapi_app.py**: FastAPI server script for serving the RAG model.
-  - **setup_environment.py**: Script to set up the environment and install required dependencies.
+- **fine_tune_model.py**: Script for fine-tuning the LLaMA model on question-answer pairs.
+- **advanced_rag_pipeline.py**: Script implementing the full RAG pipeline for querying.
+- **fastapi_app.py**: FastAPI server script for serving the RAG model.
+- **setup_environment.py**: Script to set up the environment and install required dependencies.
 
 ## Future Improvements
 - **Integration with a Cloud Database**: To store and manage large sets of documents efficiently.
